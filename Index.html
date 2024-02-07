@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Personal Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="asset/css/style.css" rel="stylesheet">
+    </head>
+    <style>
+        #home{
+            background: url(asset/imgs/home.jpg);
+            height: 100vh;
+        }
+        .hob {
+            height: 65vh;
+        }
+        .img-box {
+            height: 500px;
+            background: url(asset/imgs/IMG_2489.PNG);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            transition: width 0.5s;
+        }
+        .img-box:nth-child(2){
+            background: url(asset/imgs/IMG_2488.PNG);
+            background-size: cover;
+            background-position: center;
+        }
+        .img-box:nth-child(3){
+            background: url(asset/imgs/IMG_2490.PNG);
+            background-size: cover;
+            background-position: center;
+        }
+        .img-box:hover {
+            width: 300px;
+            cursor: pointer;
+        }
+        .img-box h3 {
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+        opacity: 0;
+        transition: bottom 0.5s, opacity 0.5s;
+        }
+        .img-box:hover h3 {
+            opacity: 1;
+            bottom: 25px;
+        }
+        .footer {
+            text-align: center;
+            background: #486cd8;
+            padding: 34px;
+        }
+        .footer p {
+            font-size: 17px;
+            color: #314faa;
+            letter-spacing: 1px;
+        }
+    </style>
+    <body>
+    <section id="home">
+        <header>
+            <nav>
+                <input id="nav-toggle">
+                <div class="logo">CHRIS<strong>U</strong></div>
+                <ul class="links">
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#images">Images</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#hobies">Hobies</a></li>
+                </ul>
+                <labe for="nav-toggle" class="icon-burger">
+                    <div class="Line"></div>
+                    <div class="Line"></div>
+                    <div class="Line"></div>
+                </labe>
+            </nav>
+        </header>
+        <div class="home-text">
+            <h4>I'am </h4>
+            <h1>Chris Jericho</h1>
+            <h3>College Student</h3>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="asset/imgs/IMG_1740.JPG">
+        </div>
+
+        <div class="about-text">
+        <h2>About</h2>
+        <h5>Student</h5>
+        <p>I am a student of Pangasinan State University. I am 1st year here. I am also taking BSIT course which is more on programming. And i hope that there will be many things to learn more while im in psu</p>
+        </div>
+    </section>
+    <section id="images" class="images">
+        <div class="center">
+            <h2>Images</h2>
+            <p>Taking random pictures involves capturing momments, objects or scenes spontaneously without a specific subject or plan in mind. It is a fun and creative way to explore the world and capture unique perspectives.</p>
+        </div>
+        <div class="image-content">
+            <div class="box">
+                <img src="asset/imgs/IMG_2041.JPG">
+                <p>Random Capture</p>
+                <h5>Mines View Park<br>December 30, 2022</h5>
+            </div>
+
+            <div class="box">
+                <img src="asset/imgs/IMG_1892.JPG">
+                <p>Random Capture</p>
+                <h5>Binmaley-Buenlag<br>December 28, 2022</h5>
+            </div>
+
+            <div class="box">
+                <img src="asset/imgs/IMG_2031.JPG">
+                <p>Random Capture</p>
+                <h5>Mines View Park<br>December 30, 2022</h5>
+            </div>
+
+            <div class="box">
+                <img src="asset/imgs/IMG_2055.JPG">
+                <p>Random Capture</p>
+                <h5>Baguio-Country Club Village<br>December 30,2022</h5>
+            </div>
+
+            <div class="box">
+                <img src="asset/imgs/IMG_1682.JPG">
+                <p>Random Capture</p>
+                <h5>Binmaley-Naguilayan<br>December 28, 2022</h5>
+            </div>
+
+            <div class="box">
+                <img src="asset/imgs/IMG_2123.JPG">
+                <p>Random Capture</p>
+                <h5>Baguio-Dominican Hill-mirador<br>December 30, 2022</h5>
+            </div>
+
+        </div>
+    </section>
+    <section id="education" class="education">
+        <div class="center">
+            <h2>Education</h2>
+            <p>Is the process of acquiring knowledge, skills, values, beliefs, and habits through various forms of learning.</p>
+        </div>
+
+        <div class="educ-content">
+            <div class="row">
+                <a href="https://web.facebook.com/equeensrow" data-replace="Elementary"><span>Elementary</span></a>
+                <h3>Grade 1-6</h3>
+                <p>It starts at elementary level, where children learn the basics of reading, writing, and arithmetic.</p>
+            </div>
+            <div class="row">
+                <a href="https://web.facebook.com/DepEdTayoCBNHSSN305687" data-replace="Highschool"><span>Highschool</span></a>
+                <h3>Grade 7-10</h3>
+                <p>And continues through highschool</p>
+            </div>
+            <div class="row">
+                <a href="https://web.facebook.com/DepEdTayoSHSSN342600" data-replace="Senior Highschool"><span>Senior Highschool</span></a>
+                <h3>Grade 11-12</h3>
+                <p>And senior high school, where they gain more specialized knowledge and skills</p>
+            </div>
+            <div class="row">
+                <a href="https://web.facebook.com/psuurdofficial" data-replace="College"><span>College</span></a>
+                <h3>Ongoing 1st year</h3>
+                <p>College education further expands ones knowledge and prepare them for a specific career</p>
+            </div>
+        </div>
+    </section>
+    <section id="hobies">
+        <div class="hobby">
+            <h2>Hobies</h2>
+            <p>My hobby is a combination of playing, biking, and coding. I enjoy playing video games in my free time as it is a great way to unwind and relax. Biking is a way for me to stay active and get some fresh air while also exploring my local area. Coding is a passion of mine, i love to create and design program and websites. These three hobies bring me joy and challenge in different ways make me feel fulfilled.</p>
+        </div>
+       
+        <div class="hob">
+            <div class="gallery">
+                <div class="img-box"><h3>Playing</h3></div>
+                <div class="img-box"><h3>Biking</h3></div>
+                <div class="img-box"><h3>Coding</h3></div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <p>Copyright 2023 Chris Jericho. All right reserved</p>
+    </div>
+    </body>
+</html>
